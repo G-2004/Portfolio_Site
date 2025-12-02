@@ -8,6 +8,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+h3{
+    color: aliceblue;
+    font-size: 24pt;
+}
+/*///////////////////////////////////////////////////////////////////////////////*/
 
 #overlay{
     z-index: 2;
@@ -19,9 +24,72 @@ body{
     position: fixed;
     background-attachment: fixed;
     background-size: cover;
+    pointer-events: none
+}
+img#overlay{
+    opacity: 0.4;
 }
 
+.navBar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 22pt;
+}
+.center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
 .foreground{
     position: relative;
     z-index: 10;
+}
+
+.projectSectionTitle{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+.projectContainer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.projectsSection{
+    display: flex;
+    gap: 30px;
+}
+.project{
+    display: grid;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 150px 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    justify-items: stretch;
+    align-items: stretch;
+    transition: transform 0.2s ease;
+}
+.project a {
+    display: block;
+    text-align: center;
+}
+.project:hover{
+    transform: scale(1.05);
+}
+.project a:nth-child(2) {
+    align-self: center;
+}
+
+.project img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
 }
