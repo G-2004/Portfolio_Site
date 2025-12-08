@@ -8,9 +8,26 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+p{
+    color: aliceblue;
+    font-size: 12pt;
+}
+h1{
+    color: aliceblue;
+    font-size: 16pt;
+}
+h2{
+    color: aliceblue;
+    font-size: 20pt;
+}
 h3{
     color: aliceblue;
     font-size: 24pt;
+}
+h4{
+    color: aliceblue;
+    font-size: 40pt;
+    text-shadow: 20px;
 }
 /*///////////////////////////////////////////////////////////////////////////////*/
 
@@ -84,6 +101,9 @@ img#overlay{
 .project:hover{
     transform: scale(1.05);
 }
+.project:active{
+    transform: scale(0.95);
+}
 .project a:nth-child(2) {
     align-self: center;
 }
@@ -92,4 +112,38 @@ img#overlay{
     width: 300px;
     height: 150px;
     border-radius: 10px 10px 0 0;
+}
+
+/*For about page*/
+
+.aboutBodyContainer {
+    display: grid;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+
+    grid-template-columns: auto auto;
+    text-align: left;
+    justify-content: left;
+}
+
+.aboutBodyContainer div p {
+    margin-left: 40px;
+    margin-right: 0px;
+
+    text-indent: 80px;
+    word-spacing: 3px;
+    line-height: 22px;
+}
+.aboutBodyContainer div h2 {
+    margin-left: 60px;
+    margin-right: 0px;
+}
+
+.aboutBodyContainer div img {
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 1;
 }
