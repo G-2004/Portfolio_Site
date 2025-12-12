@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="icon" href="assets/images/favicon.png">
@@ -12,13 +13,37 @@
     
     <div class="navBar">
         <p></p>
-        <a href="index.html"><img src="assets/images/favicon.png" height="80px">
+        <a href="index.html"><img src="assets/images/favicon.png" height="80px" alt="G logo">
         <a href="contact.html">Contact</a>
         <a href="projects.html">Projects</a>
         <a href="about.html">About</a>
         <p></p>
     </div>
 
-    <a href="mailto:gzgarza744@gmail.com">Email</a>
-    <a href="tel:209-689-5401">Phone</a>
+    <div class="pageCenter">
+        <div class="center">
+            <h1>Got questions? Or a project? Reach out below!</h1>
+        </div>
+        <div class="center">
+            <form action="404.html" novalidate>
+                <label for="email">Email: </label><br>
+                <input type="email" id="email" name="email" placeholder=" 1234@example.com" required><br>
+
+                <label for="message">Message: </label><br>
+                <textarea id="message" name="message" placeholder=" Hello!" required></textarea><br><br>
+                
+                <input type="submit" value="Send">
+            </form> 
+        </div>
+    </div>
+
+    <footer>
+        <p></p>
+        <a href="https://github.com/G-2004">GitHub</a>
+        <a href="contact.html">Contact</a>
+        <p></p>
+    </footer>
+
+    <script src="javascript/formValid.js"></script>
+
 </body>
