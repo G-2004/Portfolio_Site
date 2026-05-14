@@ -5,9 +5,11 @@
     display: flex;
     gap: 20px;
 }
-.projectContainer{
+.projectContainer {
+    flex: 1;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 80px; /* gap above footer */
 }
 .projectsSection{
     flex: 3;
@@ -54,4 +56,19 @@
     
     padding: 20px;
     gap: 40px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
 }
