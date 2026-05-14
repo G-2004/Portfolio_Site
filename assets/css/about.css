@@ -17,7 +17,7 @@ table {
     line-height: 22px;
     text-align: center;
     color:aliceblue;
-    background-color: #7e4f9d;
+    background-color: #6e438d;
     width: 100%;
     
 
@@ -46,7 +46,7 @@ td{
     text-align: center;
 }
 tr:nth-child(2n){
-    background-color: #360d4f;
+    background-color: #5f3a75;
 }
 .aboutBodyContainer div h2 {
     margin-left: 60px;

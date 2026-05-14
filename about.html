@@ -1,15 +1,12 @@
 <head>
-    <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
     <meta charset="UTF-8">
     <title>About</title>
     <link rel="icon" href="assets/images/favicon.png">
 </head>
 
 <body>
-    <div >
-        <img id="overlay" src="assets/images/scanlines.png">
-    </div>
 
     <div class="navBar">
         <p></p>
@@ -20,92 +17,97 @@
         <p></p>
     </div>
 
-    <div class="aboutBodyContainer">
-        <div class="padTop">
-            <img class="foreground" src="assets/images/self1.png" height="600px" alt="Sites creator smiling">
-        </div>
-        <div class="center">
-            <div class="column">
+    <div class="mainContent">
+        <div class="aboutBodyContainer">
+            <div class="padTop">
+                <img class="foreground" src="assets/images/self1.png" height="600px" alt="Sites creator smiling">
+            </div>
+            <div class="center">
+                <div class="column">
 
-            <h3>Name: G</h3>
-            <h3>Occupation: Maintinence Technician</h3>
-            <h3>Age: 21</h3>
+                <h3>Name: Grant</h3>
+                <h3>Occupation: None</h3>
+                <h3>Age: <span id="age"></span></h3>
 
-                <table>
-                    <tr>
-                        <th>Degrees</th>
-                    </tr>
-                    <tr>
-                        <td>Highschool Diploma</td>
-                    </tr>
-                </table>
+                    <table>
+                        <tr>
+                            <th>Degrees</th>
+                        </tr>
+                        <tr>
+                            <td>Highschool Diploma</td>
+                        </tr>
+                    </table>
 
-                <table>
-                    <tr>
-                        <th>Education</th>
-                    </tr>
-                    <tr>
-                        <td>CPSC-153</td>
-                        <td>Navigating Computer Systems</td>
-                    </tr>
-                    <tr>
-                        <td>SWDV-116</td>
-                        <td>Web Application Development</td>
-                    </tr>
-                    <tr>
-                        <td>SWDV-140</td>
-                        <td>Intermediate Web App Dev</td>
-                    </tr>
-                    <tr>
-                        <td>HLTH-101</td>
-                        <td>Medical Terminology</td>
-                    </tr>
-                    <tr>
-                        <td>SPAN-111</td>
-                        <td>Spanish for Healthcare</td>
-                    </tr>
-                    <tr>
-                        <td>BIOL-227P</td>
-                        <td>Human Anatomy & Physiology I</td>
-                    </tr>
-                    <tr>
-                        <td>BIOL-227L</td>
-                        <td>Human Anat and Phys I Lab</td>
-                    </tr>
-                    <tr>
-                        <td>ENGL-102</td>
-                        <td>Writing and Rhetoric II</td>
-                    </tr>
-                    <tr>
-                        <td>BIOL-226</td>
-                        <td>Human Anatomy & Phys I Plus</td>
-                    </tr>
-                    <tr>
-                        <td>CHEM-101L</td>
-                        <td>Intro to Chemistry Lab</td>
-                    </tr>
-                    <tr>
-                        <td>CHEM-101</td>
-                        <td>Intro to Chemistry</td>
-                    </tr>
-                    <tr>
-                        <td>CWI-101</td>
-                        <td>CWI: Pathways Explore Careers</td>
-                    </tr>
-                </table>
+                    <table>
+                        <tr>
+                            <th>Education</th>
+                        </tr>
+                        <tr>
+                            <td>CPSC-153</td>
+                            <td>Navigating Computer Systems</td>
+                        </tr>
+                        <tr>
+                            <td>SWDV-116</td>
+                            <td>Web Application Development</td>
+                        </tr>
+                        <tr>
+                            <td>SWDV-140</td>
+                            <td>Intermediate Web App Dev</td>
+                        </tr>
+                        <tr>
+                            <td>HLTH-101</td>
+                            <td>Medical Terminology</td>
+                        </tr>
+                        <tr>
+                            <td>SPAN-111</td>
+                            <td>Spanish for Healthcare</td>
+                        </tr>
+                        <tr>
+                            <td>BIOL-227P</td>
+                            <td>Human Anatomy & Physiology I</td>
+                        </tr>
+                        <tr>
+                            <td>BIOL-227L</td>
+                            <td>Human Anat and Phys I Lab</td>
+                        </tr>
+                        <tr>
+                            <td>ENGL-102</td>
+                            <td>Writing and Rhetoric II</td>
+                        </tr>
+                        <tr>
+                            <td>BIOL-226</td>
+                            <td>Human Anatomy & Phys I Plus</td>
+                        </tr>
+                        <tr>
+                            <td>CHEM-101L</td>
+                            <td>Intro to Chemistry Lab</td>
+                        </tr>
+                        <tr>
+                            <td>CHEM-101</td>
+                            <td>Intro to Chemistry</td>
+                        </tr>
+                        <tr>
+                            <td>CWI-101</td>
+                            <td>CWI: Pathways Explore Careers</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
 
-    <h2 class="center">Bio</h2>
+        <h2 class="center">Bio</h2>
             <p class="center">I've loved video games since I was a kid. Since I learned that programmers make games I've wanted to be one. I started by dabbling in mods for Minecraft, Rivals of Aether, and CK3 and now here I am making websites and writing my own programs. Next up on my list of goals is you! (and also game dev)
             </p>
+
+    </div>
 
     
     <footer>
         <p></p>
-        <a href="https://github.com/G-2004">GitHub</a>
+        <a href="https://github.com/G-2004"><img src="assets/images/githubLogoSolid.png">GitHub</a>
         <a href="contact.html">Contact</a>
         <p></p>
     </footer>
+
+    <script src="javascript/ageGrabber.js"></script>
 </body>
