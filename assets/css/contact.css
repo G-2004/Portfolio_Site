@@ -20,11 +20,6 @@ input{
       border-color: #ffffff;
       border-style: solid;
 }
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 .pageCenter{
     flex: 1;
     display: flex;
