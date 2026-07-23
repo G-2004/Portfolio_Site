@@ -15,7 +15,7 @@ body {
 
     width: 100%;
 
-    background-color: rgb(2, 2, 5);
+    background-color: #040411;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -30,27 +30,27 @@ body {
 /* Typography */
 
 p {
-    color: aliceblue;
+    color: #dcdee4;
     font-size: 12pt;
 }
 
 h1 {
-    color: aliceblue;
+    color: #dcdee4;
     font-size: 16pt;
 }
 
 h2 {
-    color: aliceblue;
+    color: #dcdee4;
     font-size: 20pt;
 }
 
 h3 {
-    color: aliceblue;
+    color: #dcdee4;
     font-size: 24pt;
 }
 
 h4 {
-    color: aliceblue;
+    color: #dcdee4;
     font-size: 40pt;
     text-shadow: 20px;
 }
@@ -67,6 +67,8 @@ a {
 /* Navbar */
 
 .navBar {
+    color: #dcdee4;
+
     display: flex;
 
     width: 100%;
@@ -80,7 +82,7 @@ a {
 
     min-height: 100px;
 
-    background-color: aliceblue;
+    background-color: #0b0b1b;
 
     font-size: 22pt;
 }
@@ -94,6 +96,8 @@ a {
 /* Footer */
 
 footer {
+    color: #dcdee4;
+    
     margin-top: auto;
 
     display: flex;
@@ -108,7 +112,7 @@ footer {
 
     padding: 20px;
 
-    background-color: aliceblue;
+    background-color: #0b0b1b;
 
     font-size: 16pt;
 }

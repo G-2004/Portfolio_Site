@@ -30,6 +30,7 @@
     justify-items: stretch;
     align-items: stretch;
     transition: transform 0.2s ease;
+    outline: 3px solid #ba7fe4;
 }
 .project a {
     display: block;

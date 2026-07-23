@@ -30,3 +30,15 @@
     (Definately gotta be something a lil prettier) (move the icons a lil left but leave the projects where they're at?)
 
     updated github
+
+7/22/2026
+
+    Background color changed across site
+
+    Outline added to projects
+
+    navBar and footer color changed
+
+    Similar treatment applied to about page
+
+    updated github

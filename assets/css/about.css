@@ -17,14 +17,14 @@ table {
     line-height: 22px;
     text-align: center;
     color:aliceblue;
-    background-color: #6e438d;
+    background-color: #040411;
     width: 100%;
     
 
     
     border-radius: 10px;
     border-style: solid;
-    border-color: aliceblue;
+    border-color: #ba7fe4;
     border-width: 4px;
 
     padding: 0%;
@@ -46,7 +46,7 @@ td{
     text-align: center;
 }
 tr:nth-child(2n){
-    background-color: #5f3a75;
+    background-color: #0b0b1b;
 }
 .aboutBodyContainer div h2 {
     margin-left: 60px;
@@ -55,9 +55,9 @@ tr:nth-child(2n){
 
 .aboutBodyContainer div img {
     border-radius: 5px;
-    border-color: aliceblue;
+    border-color: #ba7fe4;
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
     z-index: 1;
 }
 
